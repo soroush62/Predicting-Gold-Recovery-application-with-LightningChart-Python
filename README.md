@@ -42,7 +42,15 @@ Here are some examples codes and charts that shows how we created key visualizat
 
 #### **Static Dashboard Visualization**
 
-In the dashboard, we could see different charts that help us to have a better understanding of the dataset. In the first Multi Y-axis chart**,** we can see final concentrate features (gold, solid, lead**,** and Silver) across the dataset index. To explore the data better through smaller regions in the chart**,** I added a zoom band chart. In the Bar Chart**,** we could see how changes in each concentrate feature are correlated with changes in profit. Here first I calculated the difference between two consecutive trial numbers, and it can be seen that fluctuations in gold values during the experiment are more correlated with profit changes than other parameters. In this Scatter-Rectangle Series**,** we can see profit versus trial number for the first 2000 trials**. I** showed profit bands with a semi-transparent pink rectangle for each 100 trial interval to highlight min/max profit**,** and we have another smaller red rectangle around each profit point to show profits better. In the Bubble Chart, we have on the x-axis final concentrate gold (Au), final output recovery on the Y-axis, and bubble size/color showing profit. In the Contour Plot, we can see a 2D heatmap of data density regions of final concentration gold and gold recovery (It shows where points are most concentrated). We also have contour lines and scatter points**,** and finally**,** in the 3D Surface**,** we can see how profit changes with gold concentration and recovery.
+n the dashboard, we could see different charts that help us better understand the dataset. In the first Multi Y-axis chart, we can see final concentrate features (gold, solid, lead, and silver) across the dataset index. To explore the data more effectively through smaller regions in the chart, I added a zoom band chart.
+ 
+In the Bar Chart, we could see how changes in each concentrate feature are correlated with changes in profit. First, I calculated the difference between two consecutive trial numbers, and it can be seen that fluctuations in gold values during the experiment are more correlated with profit changes than other parameters.
+ 
+In the Scatter-Rectangle Series, we can see profit versus trial number for the first 2000 trials. I showed profit bands with a semi-transparent pink rectangle for each 100-trial interval to highlight minimum and maximum profit, and we have another smaller red rectangle around each profit point to show profits more clearly.
+ 
+In the Bubble Chart, we have final concentrate gold (Au) on the x-axis, final output recovery on the y-axis, and bubble size and color representing profit.
+ 
+In the Contour Plot, we can see a 2D heatmap of data density regions for final concentrate gold and gold recovery, showing where points are most concentrated. We also have contour lines and scatter points.
 
 ```python
 df = pd.read_csv("gold_recovery_full_with_profit.csv")
