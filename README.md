@@ -42,7 +42,7 @@ Here are some examples codes and charts that shows how we created key visualizat
 
 #### **Static Dashboard Visualization**
 
-n the dashboard, we could see different charts that help us better understand the dataset. In the first Multi Y-axis chart, we can see final concentrate features (gold, solid, lead, and silver) across the dataset index. To explore the data more effectively through smaller regions in the chart, I added a zoom band chart.
+In the dashboard, we could see different charts that help us better understand the dataset. In the first Multi Y-axis chart, we can see final concentrate features (gold, solid, lead, and silver) across the dataset index. To explore the data more effectively through smaller regions in the chart, I added a zoom band chart.
  
 In the Bar Chart, we could see how changes in each concentrate feature are correlated with changes in profit. First, I calculated the difference between two consecutive trial numbers, and it can be seen that fluctuations in gold values during the experiment are more correlated with profit changes than other parameters.
  
